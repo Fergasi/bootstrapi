@@ -56,7 +56,6 @@ body {
 #weatherA{
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/33/18/cloud-sky-cartoon-background-blue-sky-with-white-vector-28343318.jpg");
     background-position: center;
-    width: 90%;
     height: fit-content;
     border-radius: 10%;
     box-shadow:
