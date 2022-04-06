@@ -74,10 +74,14 @@ body {
     width: 90%;
 }
 
-h1 {
+#weatherTitle{
     font-size: 26px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 26px;
 }
 
 h2{
