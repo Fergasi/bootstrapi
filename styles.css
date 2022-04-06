@@ -6,13 +6,9 @@ body {
     font-size: 18px;
 }
 
-h1 {
-    font-size: 36x;
-}
-
 .api-section {
-    width: 70%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 400px;
     padding: 24px;
     border: 1px solid #999;
     border-radius: 4px;
@@ -38,7 +34,7 @@ h1 {
 }
 
 .page-footer {
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     color: rgba(39, 39, 39, 0.76);
     margin-top: 40px;
@@ -48,13 +44,27 @@ h1 {
     background-image: url("https://t4.ftcdn.net/jpg/00/88/41/79/240_F_88417993_lT3Md2nx6iRF2turFhWwZybSAbLd5kdg.jpg");
     width: fit-content;
     height: fit-content;
+    border-radius: 10%;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
   
 #weatherA{
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/33/18/cloud-sky-cartoon-background-blue-sky-with-white-vector-28343318.jpg");
     background-position: center;
-    width: 70%;
+    width: 90%;
     height: fit-content;
+    border-radius: 10%;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
 #cityName{
@@ -63,6 +73,10 @@ h1 {
 
 #spaceForAlert{
     width: 90%;
+}
+
+h1 {
+    font-size: 32px;
 }
 
 h2{
