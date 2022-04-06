@@ -13,23 +13,54 @@
 </head>
 <body>
     
-    <div class="api-section">
+    <div class="api-section" id="doggoGen">
         <h1>
-            Part 1: Random Dog Generator
+            Random Dog Generator
         </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+        <br>
+        <div class="card" style="width: 300px; height: auto;">
+            <div class="api-content"></div>
+             <img id="image1" src="https://www.dogstrust.ie/sponsor/_media/mystery-dog/133333dog-gallery.dog-profile-mobile-mystery-4.jpg" class="card-img-bottom">
+            </div>
+            <br>
+            <button type="button" class="btn btn-success" id="button1">Spawn Doggo</button>
         </div>
+        
     </div>
 
-    <div class="api-section">
+    <div class="api-section" id="weatherA">
         <h1>
-            Part 2: Weather App
+            Weather App
         </h1>
-        <div class="api-content">
-            [INSERT WEATHER APP HERE]
+        <br>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <input id="input" type="text" placeholder="Enter name of city">
+            <button class="btn btn-primary" id="button2">Press Here</button> 
         </div>
+        <br>
+        <h2 id="cityName"></h2>
+        <div id="spaceForAlert"></div>
+        <br>
+        <h4 id="currentDay"></h4>
+        <br>
+        <div id="currentReport">
+         <div id="temperature"></div>
+         <div id="wind"></div>
+         <div id="description"></div>
+        </div>
+        <br>
+
+        <div id="forecastTable">
+
+        </div>
+        <footer class="page-footer">
+            <div class="container">
+              <small>Made with ❤️‍🔥 by Fergasi Mfanafuthi Magor
+              </small>
+            </div>
+        </footer>
     </div>
+    <br>
 
     <script src="main.js"></script>
 </body>
