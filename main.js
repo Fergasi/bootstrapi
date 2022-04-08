@@ -99,7 +99,8 @@ button2.addEventListener('click', function(){
 
 // Helper function
 function forecastDayOfTheWeek(num){
-    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    const d = new Date();
-    return weekday[d.getDay()+num];
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","Monday","Tuesday"];
+    const today = new Date();
+    const day = today.getDay();
+    return weekday[day + num]
 }
